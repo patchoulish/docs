@@ -101,7 +101,7 @@
 		}
 	},
 	"feedback": {
-		"suggestEdit": "true",
-		"raiseIssue": "true"
+		"suggestEdit": true,
+		"raiseIssue": true
 	}
 }
