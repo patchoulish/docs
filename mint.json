@@ -1,91 +1,107 @@
 {
-  "$schema": "https://mintlify.com/schema.json",
-  "name": "Starter Kit",
-  "logo": {
-    "dark": "/logo/dark.svg",
-    "light": "/logo/light.svg"
-  },
-  "favicon": "/favicon.svg",
-  "colors": {
-    "primary": "#0D9373",
-    "light": "#07C983",
-    "dark": "#0D9373",
-    "anchors": {
-      "from": "#0D9373",
-      "to": "#07C983"
-    }
-  },
-  "topbarLinks": [
-    {
-      "name": "Support",
-      "url": "mailto:hi@mintlify.com"
-    }
-  ],
-  "topbarCtaButton": {
-    "name": "Dashboard",
-    "url": "https://dashboard.mintlify.com"
-  },
-  "tabs": [
-    {
-      "name": "API Reference",
-      "url": "api-reference"
-    }
-  ],
-  "anchors": [
-    {
-      "name": "Documentation",
-      "icon": "book-open-cover",
-      "url": "https://mintlify.com/docs"
-    },
-    {
-      "name": "Community",
-      "icon": "slack",
-      "url": "https://mintlify.com/community"
-    },
-    {
-      "name": "Blog",
-      "icon": "newspaper",
-      "url": "https://mintlify.com/blog"
-    }
-  ],
-  "navigation": [
-    {
-      "group": "Get Started",
-      "pages": [
-        "introduction",
-        "quickstart",
-        "development"
-      ]
-    },
-    {
-      "group": "Essentials",
-      "pages": [
-        "essentials/markdown",
-        "essentials/code",
-        "essentials/images",
-        "essentials/settings",
-        "essentials/navigation",
-        "essentials/reusable-snippets"
-      ]
-    },
-    {
-      "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
-    },
-    {
-      "group": "Endpoint Examples",
-      "pages": [
-        "api-reference/endpoint/get",
-        "api-reference/endpoint/create",
-        "api-reference/endpoint/delete"
-      ]
-    }
-  ],
-  "footerSocials": {
-    "x": "https://x.com/mintlify",
-    "github": "https://github.com/mintlify",
-    "linkedin": "https://linkedin.com/company/mintlify"
-  }
+	"$schema": "https://mintlify.com/schema.json",
+	"name": "Patchouli",
+	"logo": {
+		"dark": "/logo/dark.svg",
+		"light": "/logo/light.svg",
+		"href": "https://patchouli.sh"
+	},
+	"favicon": "/favicon.svg",
+	"colors": {
+		"primary": "#744EAA",
+		"light": "#AA8DD8",
+		"dark": "#744EAA",
+		"anchors": {
+			"from": "#744EAA",
+			"to": "#AA8DD8"
+		}
+	},
+	"topbarLinks": [
+		{
+			"name": "Status",
+			"url": "https://status.patchouli.sh"
+		},
+		{
+			"name": "Contact",
+			"url": "mailto:self@patchouli.sh"
+		}
+	],
+	"topbarCtaButton": {
+		"type": "github",
+		"url": "https://github.com/patchoulish/patchouli-docs"
+	},
+	"tabs": [
+		{
+			"name": "API Reference",
+			"url": "api-reference"
+		}
+	],
+	"anchors": [
+		{
+			"name": "Documentation",
+			"icon": "book-open-cover",
+			"url": "https://docs.patchouli.sh"
+		},
+		{
+			"name": "Website",
+			"icon": "earth-americas",
+			"url": "https://patchouli.sh"
+		},
+		{
+			"name": "Status",
+			"icon": "circle-check",
+			"url": "https://status.patchouli.sh"
+		}
+	],
+	"navigation": [
+		{
+			"group": "Get Started",
+			"pages": [
+				"introduction",
+				"quickstart",
+				"development"
+			]
+		},
+		{
+			"group": "Essentials",
+			"pages": [
+				"essentials/markdown",
+				"essentials/code",
+				"essentials/images",
+				"essentials/settings",
+				"essentials/navigation",
+				"essentials/reusable-snippets"
+			]
+		},
+		{
+			"group": "API Documentation",
+			"pages": [
+				"api-reference/introduction"
+			]
+		},
+		{
+			"group": "Endpoint Examples",
+			"pages": [
+				"api-reference/endpoint/get",
+				"api-reference/endpoint/create",
+				"api-reference/endpoint/delete"
+			]
+		}
+	],
+	"footerSocials": {
+		"github": "https://github.com/patchoulish"
+	},
+	"api": {
+		"baseUrl": "https://api.patchouli.sh/v0",
+		"auth": {
+			"method": "bearer"
+		},
+		"playground": {
+			"mode": "show"
+		}
+	},
+	"feedback": {
+		"suggestEdit": "true",
+		"raiseIssue": "true"
+	}
 }
